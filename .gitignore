@@ -1,0 +1,6 @@
+dist
+package
+node_modules
+*~
+*-config.json
+*.log

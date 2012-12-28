@@ -1,0 +1,34 @@
+{
+	"name": "mongo-graphite",
+	"main":"./mongo-graphite.js",
+	"description": "Script to call mongo and parse relevant info out and send to graphite.",
+	"contributors": [
+		"Matt Self <self.matt@gmail.com>"
+	],
+	"private": false,
+	"version": "0.1.0",
+	"dependencies": {
+		"mongodb":"1.x.x",
+		"underscore": "1.x.x"
+	},
+	"keywords": [
+		"mongodb",
+		"graphite",
+		"metrics",
+		"instrumentation"
+	],
+	"engines": {
+		"node": ">=0.6.17"
+	},
+	"directories": {
+		"lib": "."
+	},
+	"files": [
+		""
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:m4tty/mongo-graphite.git"
+	},
+	"scripts": {}
+}
